@@ -63,3 +63,7 @@ print("Index of Banana: " + str(banana_index))
 # Using the clear() method to remove all items from the list
 fruits.clear()
 print("Fruits List after clear: " , fruits)
+
+#Making Numerical Lists using range() function
+numbers = list(range(1, 11))  # Creates a list of numbers from 1 to 10
+print("Numerical List: " , numbers)
