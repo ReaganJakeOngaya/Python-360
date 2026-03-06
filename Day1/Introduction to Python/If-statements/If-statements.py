@@ -53,3 +53,17 @@ else:
     print("It's a cold day.")
     
 # Using 'in' keyword 
+fruits = ["apple", "banana", "cherry"]
+if "banana" in fruits:
+    print("Banana is in the list of fruits.")
+    
+# Using 'not in' keyword
+if "grape" not in fruits:
+    print("Grape is not in the list of fruits.")
+    
+# The Pass statement
+if age >= 18:
+    pass  # This is a placeholder for future code
+else:
+    print("You are a minor.")
+    
