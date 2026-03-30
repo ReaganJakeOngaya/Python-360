@@ -1,4 +1,7 @@
-# Tuples
+# Tuples are a built-in data type in Python that allows you to store an ordered collection of items.
+# They are similar to lists but have some key differences:
+# - Tuples are defined using parentheses () instead of square brackets []
+# - Tuples are immutable, meaning that once they are created, their contents cannot be changed.
 # they are Immutable (cannot be changed after creation)
 
 # Creating a tuple
