@@ -40,3 +40,13 @@ try:
 except CustomError as e:
     print(f"Caught a custom error: {e}")
     
+    
+# use of `else` and `finally` in exception handling
+try:
+    result = 10 / 2
+except ZeroDivisionError:
+    print("Error: Cannot divide by zero.")
+else:
+    print(f"Result is: {result}")
+finally:
+    print("This block will always execute, regardless of exceptions.")
